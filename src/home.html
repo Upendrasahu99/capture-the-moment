@@ -5,21 +5,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="css/output.css">
+  <link rel="stylesheet" href="../node_modules/boxicons/css/boxicons.min.css">
 </head>
 <body class="fixed top-0 bottom-0 right-0 left-0">
-  <section id="section1" class="bg-[url('https://plus.unsplash.com/premium_photo-1663076211121-36754a46de8d?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bWFycmlhZ2V8ZW58MHx8MHx8fDA%3D')] min-h-screen min-w-screen bg-no-repeat bg-cover bg-fixed relative">
-    <navbar class="flex justify-between absolute left-0 right-0 top-0 text-white flex-col md:flex-row">
-      <ul class="flex space-x-5 ms-0 md:ms-5 order-2 md:order-none">
+  <section id="section1" class="bg-[url('https://plus.unsplash.com/premium_photo-1663076211121-36754a46de8d?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bWFycmlhZ2V8ZW58MHx8MHx8fDA%3D')] h-full w-full bg-no-repeat bg-cover bg-fixed relative ">
+    <navbar class="flex justify-between absolute left-0 right-0 top-0 text-black md:text-white  bg-white md:bg-transparent leading-10">
+      <ul class="hidden md:flex space-x-5 ms-5">
         <li class="">HOME</li>
         <li class="">PORTFOLIO</li>
         <li class="">FILMS</li>
       </ul>
-      <a href="">LOGO</a>
-      <ul class="flex space-x-5  me-5">
+      <a href="" class="ms-1 md:ms-0 h-11">
+        <img src="assets/logo.png" alt="" class="h-full">
+      </a>
+      <ul class="hidden md:flex space-x-5 me-5 ">
+        <li class="">BLOGS</li>
+        <li class="">CAREERS</li>
+        <li class="">BOOK US</li>
+      </ul class="">
+
+      <ul class="fixed bg-white left-0 left-full top-0 w-full bottom-0 flex flex-col space-y-5 ps-10 pt-10 md:hidden z-40 transition-all duration-500 overflow-auto bg-gray-700 text-white sidebar">
+        <li class="">HOME</li>
+        <li class="">PORTFOLIO</li>
+        <li class="">FILMS</li>
         <li class="">BLOGS</li>
         <li class="">CAREERS</li>
         <li class="">BOOK US</li>
       </ul>
+      <button class="me-3  md:hidden cursor-pointer z-50  text-3xl   open-close-sidebar">	
+        <i class='bx bx-menu' ></i>
+      </button>
     </navbar>
     <h3 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">love · moments · memories</h3>
   </section>
