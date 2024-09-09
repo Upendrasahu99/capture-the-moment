@@ -10,3 +10,19 @@ sideBarBtn.addEventListener('click', (e) => {
 
 //=============================
 
+//center animated text
+
+const txt = 'love · moments · memories';
+
+var i = 0;
+var speed = 100;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.querySelector('.center-text').innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+
+typeWriter();
