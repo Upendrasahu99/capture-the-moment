@@ -2,18 +2,18 @@
 
 //center animated text
 
+
 // const txt = 'love · moments · memories';
 const txt = 'प्यार · पल · यादें';
+const centerElement = document.querySelector('.center-text');
 
-var i = 0;
-var speed = 100;
+let i = 0;
 
-function typeWriter() {
-  if (i < txt.length) {
-    document.querySelector('.center-text').innerHTML += txt.charAt(i);
+const typeWriter = () => {
+  if(i < txt.length){
+    centerElement.innerHTML += txt.charAt(i);
     i++;
-    setTimeout(typeWriter, speed);
+    setTimeout(typeWriter, 100);
   }
 }
-
 typeWriter();

@@ -562,10 +562,6 @@ video {
   position: absolute;
 }
 
-.relative {
-  position: relative;
-}
-
 .bottom-0 {
   bottom: 0px;
 }
@@ -699,16 +695,12 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'https\:\/\/media\.istockphoto\.com\/id\/184229599\/photo\/indian-hindu-wedding-vidai-or-farewell-of-the-bride\.jpg\?s\=2048x2048\&w\=is\&k\=20\&c\=8VwJRpGHNNYRoTUVUMUyIg8BrZahoHAk0NSp4tDID5s\=\'\)\] {
-  background-image: url('https://media.istockphoto.com/id/184229599/photo/indian-hindu-wedding-vidai-or-farewell-of-the-bride.jpg?s=2048x2048&w=is&k=20&c=8VwJRpGHNNYRoTUVUMUyIg8BrZahoHAk0NSp4tDID5s=');
-}
-
-.bg-\[url\(\'\'\)\] {
-  background-image: url('');
-}
-
 .bg-\[url\(\'https\:\/\/cdn\.pixabay\.com\/photo\/2021\/04\/05\/19\/55\/wedding-6154519_1280\.jpg\'\)\] {
   background-image: url('https://cdn.pixabay.com/photo/2021/04/05/19/55/wedding-6154519_1280.jpg');
+}
+
+.bg-\[url\(\'https\:\/\/media\.istockphoto\.com\/id\/1175680546\/photo\/heres-to-love-and-happily-ever-after\.webp\?a\=1\&b\=1\&s\=612x612\&w\=0\&k\=20\&c\=i_crEQnDz_piQ4BsHyzwZdFjml4mBC6cxii9Ee9JCJo\=\'\)\] {
+  background-image: url('https://media.istockphoto.com/id/1175680546/photo/heres-to-love-and-happily-ever-after.webp?a=1&b=1&s=612x612&w=0&k=20&c=i_crEQnDz_piQ4BsHyzwZdFjml4mBC6cxii9Ee9JCJo=');
 }
 
 .bg-cover {
@@ -729,6 +721,10 @@ video {
 
 .pt-10 {
   padding-top: 2.5rem;
+}
+
+.font-sans {
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .text-3xl {
