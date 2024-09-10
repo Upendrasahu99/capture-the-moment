@@ -3,43 +3,44 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Home</title>
   <link rel="stylesheet" href="css/output.css">
   <link rel="stylesheet" href="../node_modules/boxicons/css/boxicons.min.css">
 </head>
 <body class="fixed top-0 bottom-0 right-0 left-0">
-  <section id="section1" class="bg-[url('https://media.istockphoto.com/id/184229599/photo/indian-hindu-wedding-vidai-or-farewell-of-the-bride.jpg?s=2048x2048&w=is&k=20&c=8VwJRpGHNNYRoTUVUMUyIg8BrZahoHAk0NSp4tDID5s=')] h-full w-full bg-no-repeat bg-cover bg-fixed relative ">
-    <navbar class="flex justify-between absolute left-0 right-0 top-0 text-black md:text-white  bg-white md:bg-transparent leading-10">
-      <ul class="hidden md:flex space-x-5 ms-5">
-        <li class="">HOME</li>
-        <li class="">PORTFOLIO</li>
-        <li class="">FILMS</li>
-      </ul>
-      <a href="" class="ms-1 md:ms-0 h-11">
-        <img src="assets/logo.png" alt="" class="h-full">
-      </a>
-      <ul class="hidden md:flex space-x-5 me-5 ">
-        <li class="">BLOGS</li>
-        <li class="">CAREERS</li>
-        <li class="">BOOK US</li>
-      </ul class="">
+  <navbar class="flex justify-between fixed left-0 right-0 top-0 text-black md:text-white  bg-white md:bg-transparent leading-10">
+    <ul class="hidden md:flex space-x-5 ms-5">
+      <li class=""><a href="./home.html">HOME</a></li>
+      <li class=""><a href="./portfolio.html">PORTFOLIO</a></li>
+      <li class=""><a href="./films.html">FILMS</a></li>
+    </ul>
+    <a href="" class="ms-1 md:ms-0 h-11">
+      <img src="assets/logo.png" alt="" class="h-full">
+    </a>
+    <ul class="hidden md:flex space-x-5 me-5 ">
+      <li class=""><a href="./stories.html">BLOGS</a></li>
+      <li class=""><a href="./join-us.html">CAREERS</a></li>
+      <li class=""><a href="./get-in-touch.html">BOOK US</a></li>
+    </ul class="">
 
-      <ul class="fixed bg-white left-0 left-full top-0 w-full bottom-0 flex flex-col space-y-5 ps-10 pt-10 md:hidden z-40 transition-all duration-500 overflow-auto bg-gray-100 text-green-950 sidebar">
-        <li class="">HOME</li>
-        <li class="">PORTFOLIO</li>
-        <li class="">FILMS</li>
-        <li class="">BLOGS</li>
-        <li class="">CAREERS</li>
-        <li class="">BOOK US</li>
-        <img src="assets/logo.png" alt="" class="w-40 h-40 mx-auto">
-      </ul>
-      <button class="me-3  md:hidden cursor-pointer z-50  text-3xl   open-close-sidebar">	
-        <i class='bx bx-menu' ></i>
-      </button>
-    </navbar>
+    <ul class="fixed bg-white left-0 left-full top-0 w-full bottom-0 flex flex-col space-y-5 ps-10 pt-10 md:hidden z-40 transition-all duration-500 overflow-auto bg-gray-100 text-green-950 sidebar">
+      <li class=""><a href="./home.html">HOME</a></li>
+      <li class=""><a href="./portfolio.html">PORTFOLIO</a></li>
+      <li class=""><a href="./films.html">FILMS</a></li>
+      <li class=""><a href="./stories.html">BLOGS</a></li>
+      <li class=""><a href="./join-us.html">CAREERS</a></li>
+      <li class=""><a href="./get-in-touch.html">BOOK US</a></li>
+      <img src="assets/logo.png" alt="" class="w-40 h-40 mx-auto">
+    </ul>
+    <button class="me-3  md:hidden cursor-pointer z-50  text-3xl   open-close-sidebar">	
+      <i class='bx bx-menu' ></i>
+    </button>
+  </navbar>
+  <section id="section1" class="bg-[url('https://cdn.pixabay.com/photo/2021/04/05/19/55/wedding-6154519_1280.jpg')] h-full w-full bg-no-repeat bg-cover bg-fixed  ">
     <span class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-5xl font-bold text-white
      center-text"></span>
   </section>
   <script src="./js/home.js"></script>
+  <script src="./js/shared/navbar.js"></script>
 </body>
 </html>
