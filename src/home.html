@@ -8,53 +8,62 @@
   <link rel="stylesheet" href="../node_modules/boxicons/css/boxicons.min.css">
 </head>
 <body class="fixed h-full w-full font-sans overflow-auto">
-  <navbar class="flex justify-between fixed left-0 right-0 top-0 text-black bg-white md:bg-transparent leading-10 block md:hidden">
-    <a href="" class="ms-1 md:ms-0 h-11">
-      <img src="assets/logo.png" alt="" class="h-full">
-    </a>
-
-    <ul class="fixed bg-white left-0 left-full top-0 w-full bottom-0 flex flex-col space-y-5 ps-10 pt-10 md:hidden z-40 transition-all duration-500 overflow-auto bg-gray-100 text-green-950 sidebar">
-      <li class=""><a href="./home.html">HOME</a></li>
-      <li class=""><a href="./portfolio.html">PORTFOLIO</a></li>
-      <li class=""><a href="./films.html">FILMS</a></li>
-      <li class=""><a href="./stories.html">BLOGS</a></li>
-      <li class=""><a href="./join-us.html">CAREERS</a></li>
-      <li class=""><a href="./get-in-touch.html">BOOK US</a></li>
-      <img src="assets/logo.png" alt="" class="w-40 h-40 mx-auto">
-    </ul>
-    <button class="me-3  md:hidden cursor-pointer z-50  text-3xl   open-close-sidebar">	
-      <i class='bx bx-menu' ></i>
-    </button>
-  </navbar>
-
-  <section id="section-1" class="bg-[url('https://cdn.pixabay.com/photo/2021/04/05/19/55/wedding-6154519_1280.jpg')] h-screen w-full bg-no-repeat bg-cover bg-fixed  ">
-    <navbar class=" text-white leading-10 hidden md:flex align-middle items-center justify-between">
-      <ul class="flex space-x-5 ms-5">
+  <div class="container max-w-none">
+    <navbar class="flex justify-between fixed left-0 right-0 top-0 text-black bg-white md:bg-transparent leading-10 block md:hidden">
+      <a href="" class="ms-1 md:ms-0 h-11">
+        <img src="assets/logo.png" alt="" class="h-full">
+      </a>
+  
+      <ul class="fixed bg-white left-0 left-full top-0 w-full bottom-0 flex flex-col space-y-5 ps-10 pt-10 md:hidden z-40 transition-all duration-500 overflow-auto bg-gray-100 text-green-950 sidebar">
         <li class=""><a href="./home.html">HOME</a></li>
         <li class=""><a href="./portfolio.html">PORTFOLIO</a></li>
         <li class=""><a href="./films.html">FILMS</a></li>
-      </ul>
-      <a href="" class="ms-1 w-16 h-16">
-        <img src="assets/logo-white.png" alt="" class="h-full w-full">
-      </a>
-      <ul class="flex space-x-5 me-5">
         <li class=""><a href="./stories.html">BLOGS</a></li>
         <li class=""><a href="./join-us.html">CAREERS</a></li>
         <li class=""><a href="./get-in-touch.html">BOOK US</a></li>
-      </ul class="">
+        <img src="assets/logo.png" alt="" class="w-40 h-40 mx-auto">
+      </ul>
+      <button class="me-3  md:hidden cursor-pointer z-50  text-3xl   open-close-sidebar">	
+        <i class='bx bx-menu' ></i>
+      </button>
     </navbar>
-    <span class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-5xl font-bold text-white
-     center-text"></span>
-  </section>
-  <section id="section-2" class="flex flex-col md:flex-row gap-5 md:gap-20 items-start pt-20 pb-20 ps-20 pe-20">
-    <div class="flex-1 font-extralight text-xl">
-      <p>Photographs have always been a powerful way to experience some of the most cherished moments of our lives.</p>
-      <p>We believe in being a part of your family and narrating your love story for the days you sit back and groove your fingers through each others gray hair lines.</p>
-    </div>
-    <div class="flex-1 text-4xl font-mono font-bold">
-      <p>We promise to do our best to tell your story, the way it is meant to be</p>
-    </div>
-  </section>
+    <section id="section-1" class="bg-[url('https://cdn.pixabay.com/photo/2021/04/05/19/55/wedding-6154519_1280.jpg')] h-screen w-full bg-no-repeat bg-cover bg-fixed  ">
+      <navbar class=" text-white leading-10 hidden md:flex align-middle items-center justify-between">
+        <ul class="flex space-x-5 ms-5">
+          <li class=""><a href="./home.html">HOME</a></li>
+          <li class=""><a href="./portfolio.html">PORTFOLIO</a></li>
+          <li class=""><a href="./films.html">FILMS</a></li>
+        </ul>
+        <a href="" class="ms-1 w-16 h-16">
+          <img src="assets/logo-white.png" alt="" class="h-full w-full">
+        </a>
+        <ul class="flex space-x-5 me-5">
+          <li class=""><a href="./stories.html">BLOGS</a></li>
+          <li class=""><a href="./join-us.html">CAREERS</a></li>
+          <li class=""><a href="./get-in-touch.html">BOOK US</a></li>
+        </ul class="">
+      </navbar>
+      <span class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-5xl font-bold text-white
+       center-text"></span>
+    </section>
+    <section id="section-2" class="flex flex-col md:flex-row gap-5 md:gap-20 items-start pt-20 pb-20 ps-20 pe-20">
+      <div class="flex-1 font-extralight text-xl">
+        <p>Photographs have always been a powerful way to experience some of the most cherished moments of our lives.</p>
+        <p>We believe in being a part of your family and narrating your love story for the days you sit back and groove your fingers through each others gray hair lines.</p>
+      </div>
+      <div class="flex-1 text-4xl font-mono font-bold">
+        <p>We promise to do our best to tell your story, the way it is meant to be</p>
+      </div>
+    </section>
+    <section id="section-3" class="flex flex-col md:flex-row gap-10 pt-10 pb-10 ps-5 pe-5 max-h-screen">
+      <div class=" flex-1 relative">
+        <img src="./assets/image-1.png" alt="" class="h-full w-full">
+      </div>
+      <div class="flex-1 relative">
+        <img src="./assets/image2.png" alt="" class="h-full w-full">
+      </div>
+    </section>
+  </div>
   <script src="./js/home.js"></script>
   <script src="./js/shared/navbar.js"></script>
 </body>
