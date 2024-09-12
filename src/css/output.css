@@ -628,14 +628,6 @@ video {
   top: 50%;
 }
 
-.-top-3 {
-  top: -0.75rem;
-}
-
-.top-3 {
-  top: 0.75rem;
-}
-
 .z-40 {
   z-index: 40;
 }
@@ -644,9 +636,26 @@ video {
   z-index: 50;
 }
 
+.z-0 {
+  z-index: 0;
+}
+
+.-z-0 {
+  z-index: 0;
+}
+
+.-z-30 {
+  z-index: -30;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.my-20 {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 .me-3 {
@@ -685,12 +694,12 @@ video {
   height: 4rem;
 }
 
-.h-2\/5 {
-  height: 40%;
-}
-
 .h-40 {
   height: 10rem;
+}
+
+.h-\[70vh\] {
+  height: 70vh;
 }
 
 .h-full {
@@ -701,52 +710,16 @@ video {
   height: 100vh;
 }
 
-.h-1 {
-  height: 0.25rem;
+.max-h-screen {
+  max-height: 100vh;
 }
 
-.h-\[\] {
-  height: ;
-}
-
-.h-\[50vh\] {
-  height: 50vh;
-}
-
-.h-1\/2 {
-  height: 50%;
-}
-
-.h-3\/5 {
-  height: 60%;
-}
-
-.h-3\/4 {
-  height: 75%;
-}
-
-.h-1\/5 {
-  height: 20%;
-}
-
-.h-1\/3 {
-  height: 33.333333%;
-}
-
-.h-10 {
-  height: 2.5rem;
-}
-
-.h-72 {
-  height: 18rem;
+.min-h-screen {
+  min-height: 100vh;
 }
 
 .w-16 {
   width: 4rem;
-}
-
-.w-2\/5 {
-  width: 40%;
 }
 
 .w-40 {
@@ -755,62 +728,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-4 {
-  width: 1rem;
-}
-
-.w-3\/5 {
-  width: 60%;
-}
-
-.w-3\/4 {
-  width: 75%;
-}
-
-.w-1 {
-  width: 0.25rem;
-}
-
-.w-1\/5 {
-  width: 20%;
-}
-
-.w-5 {
-  width: 1.25rem;
-}
-
-.w-1\/3 {
-  width: 33.333333%;
-}
-
-.w-1\/6 {
-  width: 16.666667%;
-}
-
-.w-1\/2 {
-  width: 50%;
-}
-
-.w-9 {
-  width: 2.25rem;
-}
-
-.w-56 {
-  width: 14rem;
-}
-
-.w-48 {
-  width: 12rem;
-}
-
-.w-52 {
-  width: 13rem;
-}
-
-.w-60 {
-  width: 15rem;
 }
 
 .max-w-none {
@@ -831,12 +748,18 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.cursor-pointer {
-  cursor: pointer;
+.translate-x-1\/2 {
+  --tw-translate-x: 50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.flex-row {
-  flex-direction: row;
+.translate-y-1\/2 {
+  --tw-translate-y: 50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
 
 .flex-col {
@@ -855,12 +778,12 @@ video {
   justify-content: space-between;
 }
 
-.gap-5 {
-  gap: 1.25rem;
-}
-
 .gap-10 {
   gap: 2.5rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
 }
 
 .space-x-5 > :not([hidden]) ~ :not([hidden]) {
@@ -879,9 +802,8 @@ video {
   overflow: auto;
 }
 
-.bg-blue-50 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(239 246 255 / var(--tw-bg-opacity));
+.whitespace-nowrap {
+  white-space: nowrap;
 }
 
 .bg-gray-100 {
@@ -889,83 +811,13 @@ video {
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
 
-.bg-green-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(34 197 94 / var(--tw-bg-opacity));
-}
-
-.bg-red-800 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(153 27 27 / var(--tw-bg-opacity));
-}
-
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-pink-700 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(190 24 93 / var(--tw-bg-opacity));
-}
-
-.bg-purple-800 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(107 33 168 / var(--tw-bg-opacity));
-}
-
-.bg-blue-800 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(30 64 175 / var(--tw-bg-opacity));
-}
-
-.bg-gray-700 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(55 65 81 / var(--tw-bg-opacity));
-}
-
-.bg-\[\] {
-  background-color: ;
-}
-
-.bg-\[\'\'\] {
-  background-color: '';
-}
-
-.bg-\[url\] {
-  background-color: url;
-}
-
 .bg-\[url\(\'https\:\/\/cdn\.pixabay\.com\/photo\/2021\/04\/05\/19\/55\/wedding-6154519_1280\.jpg\'\)\] {
   background-image: url('https://cdn.pixabay.com/photo/2021/04/05/19/55/wedding-6154519_1280.jpg');
-}
-
-.bg-\[url\(\'https\:\/\/img\.freepik\.com\/premium-photo\/wedded-bliss-joyous-laughter-indian-wedding_734790-15020\.jpg\?w\=360\'\)\] {
-  background-image: url('https://img.freepik.com/premium-photo/wedded-bliss-joyous-laughter-indian-wedding_734790-15020.jpg?w=360');
-}
-
-.bg-\[url\(\)\] {
-  background-image: url();
-}
-
-.bg-\[url\(\'https\:\/\/img\.freepik\.com\/premium-photo\/vows-heart-sacred-rituals-matrimony_734790-15051\.jpg\?ga\=GA1\.1\.1332371930\.1725933866\&semt\=ais_hybrid\'\)\] {
-  background-image: url('https://img.freepik.com/premium-photo/vows-heart-sacred-rituals-matrimony_734790-15051.jpg?ga=GA1.1.1332371930.1725933866&semt=ais_hybrid');
-}
-
-.bg-\[url\(\'\'\)\] {
-  background-image: url('');
-}
-
-.bg-\[url\(\'https\:\/\/img\.freepik\.com\/premium-photo\/man-woman-are-looking-each-other-smiling_1234220-31751\.jpg\?w\=1060\'\)\] {
-  background-image: url('https://img.freepik.com/premium-photo/man-woman-are-looking-each-other-smiling_1234220-31751.jpg?w=1060');
-}
-
-.bg-\[url\(\'https\:\/\/i\.pinimg\.com\/736x\/51\/0a\/88\/510a88fc9cde334a012c25288d7ba38e\.jpg\'\)\] {
-  background-image: url('https://i.pinimg.com/736x/51/0a/88/510a88fc9cde334a012c25288d7ba38e.jpg');
-}
-
-.bg-\[url\(\'https\:\/\/img\.freepik\.com\/premium-photo\/portrait-young-woman-standing-outdoors_1048944-11828889\.jpg\?w\=360\'\)\] {
-  background-image: url('https://img.freepik.com/premium-photo/portrait-young-woman-standing-outdoors_1048944-11828889.jpg?w=360');
 }
 
 .bg-cover {
@@ -980,12 +832,13 @@ video {
   background-repeat: no-repeat;
 }
 
-.pb-10 {
-  padding-bottom: 2.5rem;
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
-.pb-20 {
-  padding-bottom: 5rem;
+.pb-10 {
+  padding-bottom: 2.5rem;
 }
 
 .pe-20 {
@@ -1044,6 +897,10 @@ video {
   font-size: 1.25rem;
 }
 
+.text-2xl {
+  font-size: 1.563rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -1081,12 +938,6 @@ video {
   transition-duration: 500ms;
 }
 
-@media (min-width: 640px) {
-  .sm\:flex-row {
-    flex-direction: row;
-  }
-}
-
 @media (min-width: 768px) {
   .md\:ms-0 {
     margin-inline-start: 0px;
@@ -1115,17 +966,5 @@ video {
   .md\:text-white {
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity));
-  }
-}
-
-@media (min-width: 1024px) {
-  .lg\:flex-row {
-    flex-direction: row;
-  }
-}
-
-@media (min-width: 1280px) {
-  .xl\:flex-row {
-    flex-direction: row;
   }
 }
