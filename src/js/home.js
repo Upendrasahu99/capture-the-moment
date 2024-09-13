@@ -17,3 +17,35 @@ const typeWriter = () => {
   }
 }
 typeWriter();
+
+
+// image slideshow
+
+const imageArray = ['image-1.png', 'image-2.png'];
+const slideshowBox = document.querySelector('#section-5 .slide-show-box img');
+console.log(slideshowBox.src);
+let index = 0;
+setInterval(() => {
+  slideshowBox.src = './assets/'+imageArray[index];
+  if(index === imageArray.length -1){
+    index = 0;
+    return
+  }
+  index++;
+}, 3000)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+console.log('hello world');
