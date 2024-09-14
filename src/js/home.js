@@ -21,7 +21,7 @@ typeWriter();
 
 // image slideshow
 
-const imageArray = ['image-1.png', 'image-2.png'];
+const imageArray = ['image-3.jpg', 'image-4.jpg', 'image-5.jpg'];
 const slideshowBox = document.querySelector('#section-5 .slide-show-box img');
 console.log(slideshowBox.src);
 let index = 0;
