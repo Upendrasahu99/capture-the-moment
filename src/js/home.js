@@ -35,9 +35,20 @@ setInterval(() => {
 }, 3000)
 
 
+// section 8 youtube video section 
 
-
-
+// const ytVideoSection = document.querySelector('.yt-video-section');
+// console.log(ytVideoSection.innerHTML);
+const ytVideoSecImage = document.querySelector('.yt-video-section img');
+const ytVideoSecVideo = document.querySelector('.yt-video-section iframe');
+const ytVideoSecPlayBtn = document.querySelector('.yt-video-section button');
+console.log(ytVideoSecVideo.src);
+ytVideoSecPlayBtn.addEventListener('click', (e) => {
+  ytVideoSecImage.classList.add('hidden');
+  ytVideoSecPlayBtn.classList.add('hidden');
+  ytVideoSecVideo.classList.remove('hidden');
+  ytVideoSecVideo.src = ytVideoSecVideo.src + '?autoplay=1'; 
+})
 
 
 
