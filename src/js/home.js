@@ -47,7 +47,7 @@ ytVideoSecPlayBtn.addEventListener('click', (e) => {
   ytVideoSecImage.classList.add('hidden');
   ytVideoSecPlayBtn.classList.add('hidden');
   ytVideoSecVideo.classList.remove('hidden');
-  ytVideoSecVideo.src = ytVideoSecVideo.src + '?autoplay=1'; 
+  ytVideoSecVideo.src +='?autoplay=1'; 
 })
 
 
