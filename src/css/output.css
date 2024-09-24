@@ -675,6 +675,11 @@ video {
   margin-bottom: 1.25rem;
 }
 
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
 .mb-5 {
   margin-bottom: 1.25rem;
 }
@@ -814,6 +819,10 @@ video {
 
 .h-\[\] {
   height: ;
+}
+
+.h-\[30vh\] {
+  height: 30vh;
 }
 
 .min-h-\[50vh\] {
@@ -1083,6 +1092,16 @@ video {
   padding-bottom: 5rem;
 }
 
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.py-7 {
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+}
+
 .pb-10 {
   padding-bottom: 2.5rem;
 }
@@ -1278,6 +1297,10 @@ video {
 
   .md\:h-screen {
     height: 100vh;
+  }
+
+  .md\:h-\[70vh\] {
+    height: 70vh;
   }
 
   .md\:w-1\/2 {
