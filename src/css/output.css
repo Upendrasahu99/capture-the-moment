@@ -808,6 +808,10 @@ video {
   height: 1.25rem;
 }
 
+.h-\[\] {
+  height: ;
+}
+
 .min-h-\[50vh\] {
   min-height: 50vh;
 }

@@ -9,7 +9,7 @@
 </head>
 <body class="fixed h-full w-full font-sans overflow-auto">
   <div class="container max-w-none">
-    <navbar class="flex justify-between fixed left-0 right-0 top-0 text-black bg-white md:bg-transparent leading-10 block md:hidden">
+    <navbar class="flex justify-between fixed left-0 right-0 top-0 text-black bg-white md:bg-transparent leading-10 block md:hidden z-50">
       <a href="" class="ms-1 md:ms-0 h-11">
         <img src="assets/logo.png" alt="" class="h-full">
       </a>
@@ -27,8 +27,11 @@
         <i class='bx bx-menu' ></i>
       </button>
     </navbar>
-    <section id="section-1" class="bg-[url('https://cdn.pixabay.com/photo/2021/04/05/19/55/wedding-6154519_1280.jpg')] h-screen w-full bg-no-repeat bg-cover bg-fixed  ">
-      <navbar class=" text-white leading-10 hidden md:flex align-middle items-center justify-between">
+    <section 
+      id="section-1" 
+      class="bg-[url('https://cdn.pixabay.com/photo/2021/04/05/19/55/wedding-6154519_1280.jpg')] h-[60vh] md:h-screen w-full bg-no-repeat bg-cover bg-fixed relative"
+    >
+      <navbar class="text-white leading-10 hidden md:flex align-middle items-center justify-between">
         <ul class="flex space-x-5 ms-5">
           <li class=""><a href="./home.html">HOME</a></li>
           <li class=""><a href="./portfolio.html">PORTFOLIO</a></li>
@@ -43,7 +46,7 @@
           <li class=""><a href="./get-in-touch.html">BOOK US</a></li>
         </ul class="">
       </navbar>
-      <span class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-5xl font-bold text-white
+      <span class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text- md:text-5xl font-bold text-white
        center-text"></span>
     </section>
 
