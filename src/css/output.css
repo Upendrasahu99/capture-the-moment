@@ -804,6 +804,10 @@ video {
   height: 60%;
 }
 
+.h-\[\] {
+  height: ;
+}
+
 .min-h-\[50vh\] {
   min-height: 50vh;
 }
@@ -1273,6 +1277,10 @@ video {
     height: 50vh;
   }
 
+  .md\:h-\[80vh\] {
+    height: 80vh;
+  }
+
   .md\:min-h-screen {
     min-height: 100vh;
   }
@@ -1350,6 +1358,11 @@ video {
   .md\:py-0 {
     padding-top: 0px;
     padding-bottom: 0px;
+  }
+
+  .md\:px-28 {
+    padding-left: 7rem;
+    padding-right: 7rem;
   }
 
   .md\:text-start {
