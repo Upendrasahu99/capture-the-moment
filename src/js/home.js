@@ -76,8 +76,8 @@ const section11 = document.querySelector('#section-11');
 let j = 0;
 function addData() {
   section11.insertAdjacentHTML('beforeend', `
-    <h1 class="text-5xl">some kind words</h1>
-    <p class="w-3/5 text-2xl py-10 text-justify">${feedbackData[j].paragraph}</p>
+    <h1 class="text-4xl">some kind words</h1>
+    <p class="md:w-3/5 text-sm md:text-2xl py-6 text-justify">${feedbackData[j].paragraph}</p>
     <h4>${feedbackData[j].Name}</h4>
     <h6>${feedbackData[j].place}</h6>
   `);

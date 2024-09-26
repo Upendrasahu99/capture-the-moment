@@ -1,41 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="fixed h-full w-full overflow-auto">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio</title>
+  <title>Home</title>
   <link rel="stylesheet" href="css/output.css">
   <link rel="stylesheet" href="../node_modules/boxicons/css/boxicons.min.css">
 </head>
-<body>
-  <navbar class="flex justify-between fixed left-0 right-0 top-0 text-black md:text-white  bg-white md:bg-transparent leading-10">
-    <ul class="hidden md:flex space-x-5 ms-5">
-      <li class=""><a href="./home.html">HOME</a></li>
-      <li class=""><a href="./portfolio.html">PORTFOLIO</a></li>
-      <li class=""><a href="./films.html">FILMS</a></li>
-    </ul>
-    <a href="" class="ms-1 md:ms-0 h-11">
-      <img src="assets/logo.png" alt="" class="h-full">
-    </a>
-    <ul class="hidden md:flex space-x-5 me-5 ">
-      <li class=""><a href="./stories.html">BLOGS</a></li>
-      <li class=""><a href="./join-us.html">CAREERS</a></li>
-      <li class=""><a href="./get-in-touch.html">BOOK US</a></li>
-    </ul class="">
+<body class="fixed h-full w-full font-sans overflow-auto">
+  <div class="container h-full max-w-none">
+    <navbar class="flex justify-between fixed left-0 right-0 top-0 text-black bg-white md:bg-transparent leading-10 block md:hidden z-50">
+      <a href="" class="ms-1 md:ms-0 h-11">
+        <img src="assets/logo.png" alt="" class="h-full">
+      </a>
+  
+      <ul class="fixed bg-white left-0 left-full top-0 w-full bottom-0 flex flex-col space-y-5 ps-10 pt-10 md:hidden z-40 transition-all duration-500 overflow-auto bg-gray-100 text-green-950 sidebar">
+        <li class=""><a href="./home.html">HOME</a></li>
+        <li class=""><a href="./portfolio.html">PORTFOLIO</a></li>
+        <li class=""><a href="./films.html">FILMS</a></li>
+        <li class=""><a href="./stories.html">BLOGS</a></li>
+        <li class=""><a href="./join-us.html">CAREERS</a></li>
+        <li class=""><a href="./get-in-touch.html">BOOK US</a></li>
+        <img src="assets/logo.png" alt="" class="w-40 h-40 mx-auto">
+      </ul>
+      <button class="me-3  md:hidden cursor-pointer z-50  text-3xl   open-close-sidebar">	
+        <i class='bx bx-menu' ></i>
+      </button>
+    </navbar>
 
-    <ul class="fixed bg-white left-0 left-full top-0 w-full bottom-0 flex flex-col space-y-5 ps-10 pt-10 md:hidden z-40 transition-all duration-500 overflow-auto bg-gray-100 text-green-950 sidebar">
-      <li class=""><a href="./home.html">HOME</a></li>
-      <li class=""><a href="./portfolio.html">PORTFOLIO</a></li>
-      <li class=""><a href="./films.html">FILMS</a></li>
-      <li class=""><a href="./stories.html">BLOGS</a></li>
-      <li class=""><a href="./join-us.html">CAREERS</a></li>
-      <li class=""><a href="./get-in-touch.html">BOOK US</a></li>
-      <img src="assets/logo.png" alt="" class="w-40 h-40 mx-auto">
-    </ul>
-    <button class="me-3  md:hidden cursor-pointer z-50  text-3xl   open-close-sidebar">	
-      <i class='bx bx-menu' ></i>
-    </button>
-  </navbar>
+    <!-- section 1 -->
+    <section 
+      id="section-1" 
+      class="bg-[url('https://cdn.pixabay.com/photo/2021/04/05/19/55/wedding-6154519_1280.jpg')] h-3/5 w-full bg-no-repeat bg-cover bg-fixed relative"
+    >
+      <navbar class="text-white leading-10 hidden md:flex align-middle items-center justify-between">
+        <ul class="flex space-x-5 ms-5">
+          <li class=""><a href="./home.html">HOME</a></li>
+          <li class=""><a href="./portfolio.html">PORTFOLIO</a></li>
+          <li class=""><a href="./films.html">FILMS</a></li>
+        </ul>
+        <a href="" class="ms-1 w-16 h-16">
+          <img src="assets/logo-white.png" alt="" class="h-full w-full">
+        </a>
+        <ul class="flex space-x-5 me-5">
+          <li class=""><a href="./stories.html">BLOGS</a></li>
+          <li class=""><a href="./join-us.html">CAREERS</a></li>
+          <li class=""><a href="./get-in-touch.html">BOOK US</a></li>
+        </ul class="">
+      </navbar>
+      <span class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 md:text-3xl font-bold text-white
+       center-text w-4/5 text-center">Let’s capture what makes your heart beat, together.</span>
+    </section>
+
+    
+  </div>
   <script src="./js/shared/navbar.js"></script>
 </body>
 </html>
