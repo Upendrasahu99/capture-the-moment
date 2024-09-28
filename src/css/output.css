@@ -788,19 +788,6 @@ video {
   height: 100vh;
 }
 
-.h-20 {
-  height: 5rem;
-}
-
-.h-fit {
-  height: -moz-fit-content;
-  height: fit-content;
-}
-
-.h-80 {
-  height: 20rem;
-}
-
 .min-h-screen {
   min-height: 100vh;
 }
@@ -855,14 +842,6 @@ video {
   cursor: pointer;
 }
 
-.auto-rows-\[24rem\] {
-  grid-auto-rows: 24rem;
-}
-
-.auto-rows-\[\] {
-  grid-auto-rows: ;
-}
-
 .auto-rows-\[20rem\] {
   grid-auto-rows: 20rem;
 }
@@ -889,10 +868,6 @@ video {
 
 .items-center {
   align-items: center;
-}
-
-.justify-end {
-  justify-content: flex-end;
 }
 
 .justify-center {
@@ -927,12 +902,12 @@ video {
   gap: 1.25rem;
 }
 
-.gap-8 {
-  gap: 2rem;
-}
-
 .gap-6 {
   gap: 1.5rem;
+}
+
+.gap-8 {
+  gap: 2rem;
 }
 
 .space-x-5 > :not([hidden]) ~ :not([hidden]) {
