@@ -52,6 +52,40 @@
        center-text w-4/5 text-center">Let’s capture what makes your heart beat, together.</span>
     </section>
 
+    <!-- video section -->
+    <section class="my-5">
+      <div class="grid grid-cols-1 auto-rows-[20rem] md:auto-rows-[24rem] gap-6 w-3/4 md:w-2/5 mx-auto">
+        <div class="flex flex-col justify-around relative video-div">
+          <img
+          src="./assets/image-6.jpg" 
+          alt="video-image" 
+          class="h-full w-full object-cover"
+          >
+          <iframe 
+           class="hidden h-full w-full object-cover" 
+           src="https://www.youtube.com/embed/tgbNymZ7vqY"
+           allow="autoplay"
+          >
+          </iframe>
+          <button id="play-button" class="absolute text-white text-5xl top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"><i class='bx bx-play-circle'></i></button>
+        </div> 
+        <div class="flex flex-col justify-around relative video-div">
+          <img
+          src="./assets/image-5.jpg" 
+          alt="video-image" 
+          class="h-full w-full object-cover"
+          >
+          <iframe 
+           class="hidden h-full w-full object-cover" 
+           src="https://www.youtube.com/embed/tgbNymZ7vqY"
+           allow="autoplay"
+          >
+          </iframe>
+          <button id="play-button" class="absolute text-white text-5xl top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"><i class='bx bx-play-circle'></i></button>
+        </div> 
+      </div>
+    </section>
+
     <!-- Footer -->
     <footer 
       style="background-color: rgba(102,102,102,.1);"
@@ -92,5 +126,7 @@
     </footer>
   </div>
   <script src="./js/shared/navbar.js"></script>
+  <script src="./js/films.js"></script>
+
 </body>
 </html>
