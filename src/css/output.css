@@ -660,6 +660,10 @@ video {
   grid-column: span 2 / span 2;
 }
 
+.m-5 {
+  margin: 1.25rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -705,6 +709,10 @@ video {
 
 .mt-auto {
   margin-top: auto;
+}
+
+.box-border {
+  box-sizing: border-box;
 }
 
 .block {
@@ -788,6 +796,11 @@ video {
   height: 100vh;
 }
 
+.h-max {
+  height: -moz-max-content;
+  height: max-content;
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
@@ -868,6 +881,14 @@ video {
 
 .auto-rows-\[24rem\] {
   grid-auto-rows: 24rem;
+}
+
+.auto-rows-\[\] {
+  grid-auto-rows: ;
+}
+
+.auto-rows-\[25rem\] {
+  grid-auto-rows: 25rem;
 }
 
 .grid-cols-1 {
@@ -1015,6 +1036,10 @@ video {
   padding: 1.25rem;
 }
 
+.p-40 {
+  padding: 10rem;
+}
+
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
@@ -1048,6 +1073,21 @@ video {
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
+}
+
+.px-40 {
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
 .pb-10 {
@@ -1163,19 +1203,73 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-gray-600 {
+  --tw-text-opacity: 1;
+  color: rgb(75 85 99 / var(--tw-text-opacity));
+}
+
 .transition-all {
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
 
+.delay-150 {
+  transition-delay: 150ms;
+}
+
 .duration-500 {
   transition-duration: 500ms;
+}
+
+.duration-100 {
+  transition-duration: 100ms;
+}
+
+.duration-200 {
+  transition-duration: 200ms;
+}
+
+.duration-1000 {
+  transition-duration: 1000ms;
+}
+
+.hover\:m-5:hover {
+  margin: 1.25rem;
+}
+
+.hover\:w-11\/12:hover {
+  width: 91.666667%;
 }
 
 .hover\:bg-black:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.hover\:p-5:hover {
+  padding: 1.25rem;
+}
+
+.hover\:p-1:hover {
+  padding: 0.25rem;
+}
+
+.hover\:p-4:hover {
+  padding: 1rem;
+}
+
+.hover\:p-3:hover {
+  padding: 0.75rem;
+}
+
+.hover\:p-2:hover {
+  padding: 0.5rem;
+}
+
+.hover\:px-3:hover {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
 .hover\:text-white:hover {
@@ -1245,6 +1339,10 @@ video {
     height: 100vh;
   }
 
+  .md\:h-80 {
+    height: 20rem;
+  }
+
   .md\:min-h-\[50vh\] {
     min-height: 50vh;
   }
@@ -1279,6 +1377,10 @@ video {
 
   .md\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .md\:flex-row {
@@ -1329,6 +1431,11 @@ video {
     padding-bottom: 0px;
   }
 
+  .md\:px-40 {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+
   .md\:text-start {
     text-align: start;
   }
@@ -1370,6 +1477,10 @@ video {
 @media (min-width: 1024px) {
   .lg\:h-\[60vh\] {
     height: 60vh;
+  }
+
+  .lg\:h-screen {
+    height: 100vh;
   }
 
   .lg\:w-2\/5 {
